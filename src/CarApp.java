@@ -4,18 +4,18 @@ public class CarApp {
 	public static void main(String[] args) {
 		
 Car car1 = new Car();
-Car car2 = new Car("Volvo", 440, 60);
+Car car2 = new Car("Volvo", 440, 55);
 
 //calling methods
 car1.printData();
 car1.accelerate();
 car1.brake();
 car1.printData();
-car1.refuel(5);
+car1.refuel(10);
 car2.printData();
 	}
 
-}// end of CarApp class
+} // end of CarApp class
 
 class Car
 {
