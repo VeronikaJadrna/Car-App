@@ -4,7 +4,7 @@ public class CarApp {
 	public static void main(String[] args) {
 		
 Car car1 = new Car();
-Car car2 = new Car("Volvo", 440, 55);
+Car car2 = new Car("Volvo", 440, 30);
 
 //calling methods
 car1.printData();
